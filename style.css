@@ -669,6 +669,14 @@ button {
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
 }
+.certificate-card:hover {
+    border-color: #52525b;
+    transform: translateY(-6px);
+}
+
+.certificate-card.hidden {
+    display: none;
+}
 .certificate-image {
     height: 400px;
     position: relative;
@@ -676,6 +684,11 @@ button {
     display: grid;
     place-items: center;
 }
+.certificate-image::after {
+    width: 200px;
+    height: 400px;
+}
+
 .certificate-tittle{
     margin-top: 30px;
     text-align: center;
@@ -1094,7 +1107,8 @@ footer {
     }
 
     .skills-grid,
-    .projects-grid {
+    .projects-grid,
+    .certificates-grid {
         grid-template-columns: 1fr;
     }
 
