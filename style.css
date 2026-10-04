@@ -579,7 +579,9 @@ button {
     flex-wrap: wrap;
     gap: 6px;
 }
-
+.honors {
+    border-top: 1px solid var(--border);
+}
 .tags span,
 .project-tech span {
     border: 1px solid var(--border);
@@ -649,16 +651,6 @@ button {
     place-items: center;
 }
 
-.project-image::before,
-.project-image::after {
-    content: "";
-    position: absolute;
-    width: 220px;
-    height: 220px;
-    border: 1px solid rgba(255,255,255,.08);
-    border-radius: 50%;
-}
-
 .project-image::after {
     width: 120px;
     height: 120px;
@@ -672,7 +664,32 @@ button {
     color: rgba(255,255,255,.6);
     z-index: 2;
 }
+.certificates-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.certificate-image {
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+}
+.certificate-tittle{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
 
+.certificate-card {
+    background: var(--surface);
+    border: 1px solid white;
+    border-radius: 13px;
+    overflow: hidden;
+    transition: .35s ease;
+}
 .project-symbol {
     font-family: "Space Grotesk", sans-serif;
     font-size: 55px;
@@ -682,23 +699,42 @@ button {
 }
 
 .foodshare {
-    background: linear-gradient(135deg, #142b1b, #1b351c);
+    background-image: url("foodShare.png");
+    background-size: cover;
+}
+.build{
+    background-image: url("Build-with-bharat.png");
+    background-size: cover;
 }
 
 .wari {
-    background: linear-gradient(135deg, #3b2515, #4a211a);
+    background-image: url("wari-annapurna.png");
+    background-size: cover;
+}
+.varithon{
+    background-image: url("Varithon.jpg");
+    background-size: cover;
 }
 
 .employee {
-    background: linear-gradient(135deg, #17243a, #1c2747);
+    background-image: url("employee.png");
+    background-size: cover;
 }
-
+.internal{
+    background-image: url("internal-SIH_1.jpg");
+    background-size: cover;
+}
 .qr {
-    background: linear-gradient(135deg, #27212f, #342239);
+    background-image: url("qrcode.png");
+    background-size: cover;
 }
-
+.praneta{
+    background-image: url("praneta26_1.jpg");
+    background-size: cover;
+}
 .leetcode {
-    background: linear-gradient(135deg, #25251a, #30301a);
+    background-image: url("leetcode.png");
+    background-size: cover;
 }
 
 .project-content {
@@ -735,8 +771,11 @@ button {
 
 .project-link {
     color: var(--text);
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
+    border-radius: 10px;
+    background-color: #34b91d;
+    padding:14px;
     display: inline-flex;
     gap: 8px;
     transition: .25s;

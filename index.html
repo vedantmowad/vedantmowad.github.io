@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,13 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="cursor"></div>
@@ -25,6 +29,7 @@
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
+            <a href="#honors">Acheivements</a>
             <a href="#journey">Journey</a>
             <a href="#contact">Contact</a>
         </nav>
@@ -75,11 +80,13 @@
                 </div>
 
                 <div class="social-links">
-                    <a href="https://github.com/vedantmowad" target="_blank">GitHub ↗</a>
-                    <a href="https://www.linkedin.com/in/vedant-mowad-46650236b/" target="_blank">LinkedIn ↗</a>
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vedantmowad@gmail.com" target="_blank">
-    Email
-</a>
+                    <a href="https://github.com/vedantmowad" target="_blank" class="btn secondary">GitHub ↗</a>
+                    <a href="https://www.linkedin.com/in/vedant-mowad-46650236b/" target="_blank"
+                        class="btn secondary">LinkedIn ↗</a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vedantmowad@gmail.com" target="_blank"
+                        class="btn secondary">
+                        Email ↗
+                    </a>
                 </div>
             </div>
 
@@ -95,12 +102,16 @@
                     </div>
 
                     <div class="code-body">
-                        <p><span class="line">01</span> <span class="purple">class</span> <span class="green">Developer</span> {</p>
+                        <p><span class="line">01</span> <span class="purple">class</span> <span
+                                class="green">Developer</span> {</p>
                         <p><span class="line">02</span></p>
-                        <p><span class="line">03</span> &nbsp;&nbsp;<span class="purple">string</span> focus = <span class="orange">"building"</span>;</p>
-                        <p><span class="line">04</span> &nbsp;&nbsp;<span class="purple">vector</span>&lt;<span class="purple">string</span>&gt; skills;</p>
+                        <p><span class="line">03</span> &nbsp;&nbsp;<span class="purple">string</span> focus = <span
+                                class="orange">"building"</span>;</p>
+                        <p><span class="line">04</span> &nbsp;&nbsp;<span class="purple">vector</span>&lt;<span
+                                class="purple">string</span>&gt; skills;</p>
                         <p><span class="line">05</span></p>
-                        <p><span class="line">06</span> &nbsp;&nbsp;<span class="purple">void</span> <span class="blue">solve</span>() {</p>
+                        <p><span class="line">06</span> &nbsp;&nbsp;<span class="purple">void</span> <span
+                                class="blue">solve</span>() {</p>
                         <p><span class="line">07</span> &nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">learn</span>();</p>
                         <p><span class="line">08</span> &nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">build</span>();</p>
                         <p><span class="line">09</span> &nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">repeat</span>();</p>
@@ -163,7 +174,7 @@
 
                 <div class="about-stats reveal">
                     <div class="stat">
-                        <strong>03+</strong>
+                        <strong>04+</strong>
                         <span>Projects Built</span>
                     </div>
 
@@ -202,6 +213,7 @@
                         <span>C</span>
                         <span>C++</span>
                         <span>Python</span>
+                        <span>Java</span>
                     </div>
                 </div>
 
@@ -213,6 +225,8 @@
                     <div class="tags">
                         <span>Flask</span>
                         <span>REST APIs</span>
+                        <span>SQL</span>
+                        <span>MySQL</span>
                     </div>
                 </div>
 
@@ -232,13 +246,14 @@
                 <div class="skill-card reveal">
                     <div class="skill-number">04</div>
                     <div class="skill-icon">◉</div>
-                    <h3>Database & Tools</h3>
+                    <h3>Tools</h3>
                     <p>Working with data storage, version control and development tools.</p>
                     <div class="tags">
-                        <span>MySQL</span>
+                        <span>Xampp</span>
                         <span>Git</span>
                         <span>GitHub</span>
                         <span>VS Code</span>
+                        <span>Pycharm</span>
                     </div>
                 </div>
 
@@ -251,40 +266,32 @@
                 <h2>Things I've<br><em>built.</em></h2>
             </div>
 
-            <div class="project-filters reveal">
-                <button class="filter active" data-filter="all">All</button>
-                <button class="filter" data-filter="backend">Backend</button>
-                <button class="filter" data-filter="python">Python</button>
-                <button class="filter" data-filter="problem-solving">Problem Solving</button>
-            </div>
-
             <div class="projects-grid">
 
                 <article class="project-card featured reveal" data-category="backend python">
-                    <div class="project-image foodshare">
-                        <span>01</span>
-                        <div class="project-symbol">FS</div>
-                    </div>
+                    <div class="project-image foodshare"></div>
 
                     <div class="project-content">
                         <div class="project-meta">
-                            <span>BACKEND</span>
-                            <span>01</span>
+                            <span>FULL STACK WEB APPLICATION</span>
                         </div>
 
                         <h3>FoodShare</h3>
 
                         <p>
-                            A food redistribution platform connecting donors
-                            and NGOs while using rule-based prioritization
-                            to help reduce food waste.
+                            A smart food redistribution platform connecting donors
+                            and NGOs while using rule-based prioritization and ensure
+                            that most urgent food reaches most needy peopele, it also
+                            minimizes food waste by supplying food to those in need
+                            before it expires.
                         </p>
 
                         <div class="project-tech">
-                            <span>Python</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
                             <span>Flask</span>
                             <span>MySQL</span>
-                            <span>JavaScript</span>
                         </div>
 
                         <a href="https://github.com/vedantmowad/FoodShare.git" class="project-link">
@@ -293,29 +300,60 @@
                     </div>
                 </article>
 
-
-                <article class="project-card reveal" data-category="python">
-                    <div class="project-image employee">
-                        <span>03</span>
-                        <div class="project-symbol">EMS</div>
-                    </div>
+                <article class="project-card featured reveal" data-category="backend python">
+                    <div class="project-image wari"></div>
 
                     <div class="project-content">
                         <div class="project-meta">
-                            <span>PYTHON</span>
-                            <span>03</span>
+                            <span>FULL STACK WEB APPLICATION</span>
+                        </div>
+
+                        <h3>Wari Annapurna</h3>
+
+                        <p>
+                            A crowd mobility based smart food doscovery platform for
+                            sacred pandharpur wari, which helps warkaries to find
+                            the nearby food services while also being able to predict
+                            potential demand and shortage by smart mobillity based
+                            prediction logic.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Flask</span>
+                            <span>MySQL</span>
+                        </div>
+
+                        <a href="https://github.com/vedantmowad/Wari-Annapurna.git" class="project-link">
+                            View Project <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+
+
+                <article class="project-card reveal" data-category="python">
+                    <div class="project-image employee"></div>
+
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span>STREAMLIT BASED WEB APPLICATION</span>
                         </div>
 
                         <h3>Employee Management System</h3>
 
                         <p>
-                            A Python-based application for managing employee
-                            information and operations.
+                            A Python-based application designed to manage employee records,
+                            departments, roles, and other organizational details efficiently.
+                            Helps in employee data management and reduces manual record-keping
+                            through the centralized system.
                         </p>
 
                         <div class="project-tech">
                             <span>Python</span>
-                            <span>Database</span>
+                            <span>Streamlit</span>
+                            <span>MySQL</span>
                         </div>
 
                         <a href="https://github.com/vedantmowad/Employee-Management-System.git" class="project-link">
@@ -332,20 +370,23 @@
 
                     <div class="project-content">
                         <div class="project-meta">
-                            <span>STREAMLIT</span>
-                            <span>04</span>
+                            <span>STREAMLIT BASED WEB APPLICATION</span>
                         </div>
 
                         <h3>QR Code Generator</h3>
 
                         <p>
                             A customizable QR code generation application
-                            built with Python and Streamlit.
+                            built with Python and Streamlit which convert text, URL and
+                            other information into scannable QR codes. generating QR code
+                            quickly and efficiently to share digital information faster, easier
+                            and more convenient.
                         </p>
 
                         <div class="project-tech">
                             <span>Python</span>
                             <span>Streamlit</span>
+                            <span>QRCODE library(python)</span>
                         </div>
 
                         <a href="https://github.com/vedantmowad/QR-Code-Generater.git" class="project-link">
@@ -355,31 +396,31 @@
                 </article>
 
                 <article class="project-card reveal" data-category="problem-solving">
-                    <div class="project-image leetcode">
-                        <span>05</span>
-                        <div class="project-symbol">DSA</div>
-                    </div>
+                    <div class="project-image leetcode"></div>
 
                     <div class="project-content">
                         <div class="project-meta">
-                            <span>PROBLEM SOLVING</span>
-                            <span>05</span>
+                            <span>PROBLEM SOLVING REPOSITERY</span>
                         </div>
 
                         <h3>LeetCode Problems</h3>
 
                         <p>
-                            A collection of algorithmic solutions covering
-                            arrays, binary search, strings, hashing and more.
+                            A collection of algorithmic solutions of leetcode problems
+                            focused on Strengthening data structures and algorithm skills,
+                            includes problems covering arrays, strings, linked lists, stacks,
+                            queues, trees and other core DSA concepts.
                         </p>
 
                         <div class="project-tech">
                             <span>C++</span>
-                            <span>DSA</span>
+                            <span>Data Structures</span>
                             <span>Algorithms</span>
+                            <span>Problem Solving</span>
                         </div>
 
-                        <a href="https://github.com/vedantmowad/LeetCode-Problems.git" class="project-link">
+                        <a href="https://github.com/vedantmowad/LeetCode-Problems.git" class="project-link"
+                            style="margin-right: 10px;">
                             View Solutions <span>↗</span>
                         </a>
                         <a href="https://leetcode.com/u/vedant_mowad/" class="project-link">
@@ -391,9 +432,44 @@
             </div>
         </section>
 
+        <section class="section honors" id="honors">
+            <div class="section-heading reveal">
+                <span>04 / Acheivements </span>
+                <h2>Things I've<br><em>Acheived</em></h2>
+            </div>
+
+            <div class="certificates-grid">
+                <article class="certificate-card featured reveal">
+                    <div class="certificate-image build"></div>
+                    <h3 class="certificate-tittle">Semi-Finalist : Build With Bharat 2.0,
+                        A National Level Hackathon Organized By NIT Delhi.
+                    </h3>
+                </article>
+                <article class="certificate-card featured reveal">
+                    <div class="certificate-image varithon"></div>
+                    <h3 class="certificate-tittle">Finalist : Varithon 2k26, A National Level 
+                        Hackathon Organized By MMCOE, Pune.
+                    </h3>
+                </article>
+                <article class="certificate-card featured reveal">
+                    <div class="certificate-image internal"></div>
+                    <h3 class="certificate-tittle">Runners-Up : Internal SIH 2026, An Intra college
+                        Hackathon Organized By HVPM COET, Amravati.
+                    </h3>
+                </article>
+                <article class="certificate-card featured reveal">
+                    <div class="certificate-image praneta"></div>
+                    <h3 class="certificate-tittle">3rd Prize : Praneta 2k26, A State Level
+                        Project Compitition Organized By JDITE, Yavatmal.
+                    </h3>
+                </article>
+            </div>
+
+        </section>
+
         <section class="section journey" id="journey">
             <div class="section-heading reveal">
-                <span>04 / JOURNEY</span>
+                <span>05 / JOURNEY</span>
                 <h2>Always<br><em>learning.</em></h2>
             </div>
 
@@ -478,7 +554,7 @@
         <section class="section contact" id="contact">
             <div class="contact-box reveal">
                 <div>
-                    <span class="section-label">05 / CONTACT</span>
+                    <span class="section-label">06 / CONTACT</span>
 
                     <h2>Have an idea?<br><em>Let's build it.</em></h2>
 
@@ -489,9 +565,11 @@
                 </div>
 
                 <div class="contact-actions">
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vedantmowad@gmail.com" target="_blank">
-    Email
-</a>
+                    <a href="Resume-1.pdf"class="btn secondary" download="vedant_resume.pdf">Download Resume</a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vedantmowad@gmail.com" target="_blank"
+                        class="btn secondary">
+                        Email ↗
+                    </a>
 
                     <a href="https://github.com/vedantmowad" target="_blank" class="btn secondary">
                         GitHub ↗
@@ -510,4 +588,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>

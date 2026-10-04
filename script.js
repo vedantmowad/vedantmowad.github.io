@@ -43,7 +43,7 @@ window.addEventListener("scroll", () => {
 });
 
 const words = [
-    "Backend Developer",
+    "Web Developer",
     "Problem Solver",
     "DSA Learner",
     "ML/AI Enthusiast"
